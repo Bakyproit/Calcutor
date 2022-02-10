@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleCalculatorApp</title>
+    <link rel="stylesheet" href="asset/App.css">
+    <link rel="stylesheet" href="asset/grid.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <div class="app__title">
+                <h1 class="app__title-name">Calc</h1>
+                <div class="app__title-theme">
+                    <p class="app__title-theme-name">THEME</p>
+                    <div class="app__title-theme-box">
+                        <div class="app__title-theme-box-number">
+                            <span class="app__title-theme-box-number-1">1</span>
+                            <span class="app__title-theme-box-number-2">2</span>
+                            <span class="app__title-theme-box-number-3">3</span>
+                        </div>
+                        <div class="app__title-theme-box-toggle">
+                            <label for="toggle-input" class="toggle">
+                                <input type="checkbox" id="toggle-input" class="toggle__checkbox">
+                                <div class="toggle__bar">
+                                    <div class="toggle__spin"></div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app__result">
+                <input type="text" class="app__result-output" placeholder="0" id="result">
+                <!-- <h1 class="app__result-number">399,981</h1> -->
+            </div>
+
+            <div class="app__content">
+                <div class="app__content-number">
+                    <div class="button">
+                        <span class="number" onclick="numShow('7')">7</span>
+                    </div>
+                    <div class="button">
+                        <span class="number" onclick="numShow('7')">8</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">9</span>
+                    </div>
+                    <div class="button button-del">
+                        <span class="number number-del">DEL</span>
+                    </div>
+        
+                    <div class="button">
+                        <span class="number">4</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">5</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">6</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">+</span>
+                    </div>
+        
+                    <div class="button">
+                        <span class="number">1</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">2</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">3</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">-</span>
+                    </div>
+        
+                    <div class="button">
+                        <span class="number">.</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">0</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">/</span>
+                    </div>
+                    <div class="button">
+                        <span class="number">x</span>
+                    </div>
+        
+                    <div class="app__content-number-footer">
+                        <div class="button botton-reset">
+                            <span class="number number-reset">RESET</span>
+                        </div>
+                        <div class="button botton-return">
+                            <span class="number number-return">=</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

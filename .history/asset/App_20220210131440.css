@@ -1,0 +1,157 @@
+html{
+    font-family:Arial, Helvetica, sans-serif ; 
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 1000px;
+    background-color: #3b4664;
+    position: relative;
+}
+.app{
+    width: 500px;
+    position:absolute ; 
+    top:100px ; 
+    left:30%;
+
+}
+.app__title{
+    display: flex;
+    justify-content:space-between;
+
+}
+.app__title-name{
+    color : #e9ebf0 ;
+    font-size: 24px;
+    padding: 10px;
+}
+.app__title-theme{
+    display: flex;
+}
+.app__title-theme-name{
+    color :20px ;
+    color:#fcfeff ;
+    margin-right: 16px;
+}
+.app__title-theme-box{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+.app__title-theme-box-number{
+    color : #f8ffff ;
+}
+.app__title-theme-box-number-1{
+    padding: 0 7px;
+}
+.app__title-theme-box-number-2{
+    padding: 0 7px;
+
+}
+.app__title-theme-box-number-3{
+    padding: 0 7px;
+
+}
+.app__title-theme-box-toggle{
+    padding-top: 2px;
+    padding-left: 5px;
+}
+.toggle__checkbox{
+    display: none;
+}
+.toggle__bar{
+    width: 60px;
+    height: 15px;
+    background-color: #252c46;
+    border-radius: 5rem;
+    /* transition: background-color 4s linear; */
+    padding: 6px;
+    cursor: pointer;
+}
+.toggle__spin{
+    width: 20px;
+    height: 15px;
+    background-color: #cf3f34;
+    border-radius: 3rem;
+    transition: transform .3s linear;
+    cursor: pointer;
+}
+.toggle__checkbox:checked ~ .toggle__bar{
+    background-color: #a2aac6; 
+}
+.toggle__checkbox:checked + .toggle__bar .toggle__spin { 
+    transform: translateX(2.5rem);
+}
+
+
+.app__result{
+    margin:30px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.app__result-output{
+    width: 100%;
+    background-color: #181f32;
+    outline: none;
+    border: none;
+    padding: 30px  ;
+    
+    color: #fff ;
+    font-size: 40px;
+}
+
+.app__content{
+    background-color: #252d44;
+}
+.app__content-number{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 12px;
+}
+.button{
+    width: 20%;
+    height: 51px;
+    background-color: #eae3db;
+    margin: 20px 12px 0 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px ;
+    box-shadow: 0px 4px #b2a594 ;
+    cursor: pointer;
+}
+.number{
+    color: #3d3b51;
+    font-size: 20px;
+    font-weight: 800;
+}
+.app__content-number-footer{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+
+}
+.botton-reset{
+    flex: 1 ;
+}
+.button-del ,
+.botton-reset{
+    background-color: #647299 ;
+    box-shadow: 0px 4px #414e70 ;
+}
+.botton-return{
+    flex: 1 ;
+    background-color: #d13f30 ;
+    box-shadow: 0px 4px #8f2316 ;
+}
+.number-reset,
+.number-return,
+.number-del{
+    color : #fff ;
+    font-weight: 600;
+}
