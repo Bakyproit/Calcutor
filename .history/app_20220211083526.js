@@ -23,6 +23,7 @@ const newBack = document.querySelector("#newBack");
 
 boxToggle.onclick = function() {
     newBack.style.background = "#d3cdcd" ;
+    // newBack.style.transform = "translateX(50%)" ;
 };
 
 
