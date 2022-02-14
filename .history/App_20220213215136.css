@@ -22,73 +22,14 @@ body.active3{
     background-color: hsl(268, 75%, 9%);
 }
 /* active2 */
-body.active2 .app__title-name,
-body.active2 .app__title-theme-name,
-body.active2 .app__title-box-number{
+body.active2 .app__title-name{
     color : #333 ; 
-    font-weight: 600;
 }
-body.active2 .app__title-box-toggle,
-body.active2 .app__content{
-    background-color: hsl(0, 5%, 81%);
-}
-body.active2 .app__result-output{
-    background-color:hsl(0, 5%, 81%) ;
+body.active2 .app__title-theme-name{
     color :#333 ;
 }
-body.active2 .button{
-    background-color: hsl(45, 7%, 89%) ;
-    box-shadow: 0px 4px  hsl(35, 11%, 61%) ;
-}
-body.active2 .button-del ,
-body.active2 .button-reset{
-    background-color: hsl(185, 42%, 37%) ;
-    box-shadow: 0px 4px hsl(185, 58%, 25%) ;
-}
-body.active2 .button-equal{
-    background-color:  hsl(25, 98%, 40%) ;
-    box-shadow: 0px 4px hsl(25, 99%, 27%) ;
-}
-
-/* active3 */
-body.active3 .app__title-name,
-body.active3 .app__title-theme-name,
-body.active3 .app__title-box-number{
-    color : hsl(52, 100%, 62%) ; 
-    font-weight: 600;
-}
-body.active3 .app__title-box-toggle,
-body.active3 .app__content{
-    background-color: hsl(268, 71%, 12%);
-}
-body.active3 .app__result-output{
-    background-color:hsl(268, 71%, 12%) ;
-    color :hsl(52, 100%, 62%) ;
-}
-body.active3 .button{
-    background-color: hsl(268, 47%, 21%) ;
-    box-shadow: 0px 4px  hsl(290, 70%, 36%) ;
-}
-body.active3 .number{
-    color : hsl(52, 100%, 62%) ;
-
-}
-body.active3 .button-del ,
-body.active3 .button-reset{
-    background-color: hsl(281, 89%, 26%) ;
-    box-shadow: 0px 4px hsl(285, 91%, 52%) ;
-
-}
-body.active3 .button-equal{
-    background-color:  hsl(176, 100%, 44%) ;
-    box-shadow: 0px 4px hsl(177, 92%, 70%) ;
-}
-body.active3 .number-reset,
-body.active3 .number-del{
-    color : #fff ;
-}
-body.active3 .number-equal{
-    color : #333 ; 
+body.active2 .app__title-box-toggle{
+    background-color: ;
 }
 
 .container{
@@ -232,5 +173,5 @@ body.active3 .number-equal{
 .number-equal,
 .number-del{
     color : #fff ;
-    font-weight: 500;
+    font-weight: 600;
 }

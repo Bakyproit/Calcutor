@@ -66,8 +66,8 @@ body.active3 .app__result-output{
     color :hsl(52, 100%, 62%) ;
 }
 body.active3 .button{
-    background-color: hsl(268, 47%, 21%) ;
-    box-shadow: 0px 4px  hsl(290, 70%, 36%) ;
+    background-color: hsl(45, 7%, 89%) ;
+    box-shadow: 0px 4px  hsl(35, 11%, 61%) ;
 }
 body.active3 .number{
     color : hsl(52, 100%, 62%) ;
@@ -77,18 +77,10 @@ body.active3 .button-del ,
 body.active3 .button-reset{
     background-color: hsl(281, 89%, 26%) ;
     box-shadow: 0px 4px hsl(285, 91%, 52%) ;
-
 }
 body.active3 .button-equal{
     background-color:  hsl(176, 100%, 44%) ;
     box-shadow: 0px 4px hsl(177, 92%, 70%) ;
-}
-body.active3 .number-reset,
-body.active3 .number-del{
-    color : #fff ;
-}
-body.active3 .number-equal{
-    color : #333 ; 
 }
 
 .container{
@@ -232,5 +224,5 @@ body.active3 .number-equal{
 .number-equal,
 .number-del{
     color : #fff ;
-    font-weight: 500;
+    font-weight: 600;
 }

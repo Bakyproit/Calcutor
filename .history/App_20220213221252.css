@@ -84,12 +84,8 @@ body.active3 .button-equal{
     box-shadow: 0px 4px hsl(177, 92%, 70%) ;
 }
 body.active3 .number-reset,
-body.active3 .number-del{
-    color : #fff ;
-}
-body.active3 .number-equal{
-    color : #333 ; 
-}
+body.active3 .number-equal,
+body.active3 .number-del
 
 .container{
     width: 100%;
@@ -232,5 +228,5 @@ body.active3 .number-equal{
 .number-equal,
 .number-del{
     color : #fff ;
-    font-weight: 500;
+    font-weight: 600;
 }

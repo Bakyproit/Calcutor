@@ -85,7 +85,7 @@ body.active3 .button-equal{
 }
 body.active3 .number-reset,
 body.active3 .number-del{
-    color : #fff ;
+    color : hsl(0, 0, 100%) ;
 }
 body.active3 .number-equal{
     color : #333 ; 
